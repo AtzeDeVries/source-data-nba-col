@@ -1,0 +1,86 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+	xmlns:md="eml://ecoinformatics.org/methods-2.1.1" 
+	xmlns:proj="eml://ecoinformatics.org/project-2.1.1"
+	xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" 
+	xmlns:res="eml://ecoinformatics.org/resource-2.1.1"
+	xmlns:dc="http://purl.org/dc/terms/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/dev/eml.xsd"
+	packageId="155:2016-03-24"
+	system="catalogueoflife.org" 
+	scope="system" 
+	xml:lang="eng">
+	<dataset>
+		<alternateIdentifier system="catalogueoflife.org">155</alternateIdentifier>
+
+		<title xml:lang="eng">WoRMS Acoelomorpha: World list of Acoelomorpha in the Catalogue of Life</title>
+		
+		<creator>
+			<organizationName>Species 2000 &amp; ITIS Catalogue of Life</organizationName>
+			<address>
+				<city>Reading</city>
+				<postalCode>RG6 6AS</postalCode>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.catalogueoflife.org</onlineUrl>
+		</creator>
+
+		<metadataProvider>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<city>Reading</city>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.sp2000.org/</onlineUrl>
+		</metadataProvider>
+
+		<associatedParty>
+			<individualName>
+				<givenName></givenName>
+				<surName>Tyler S., Artois T. </surName>					
+			</individualName>
+			<role>editor</role>
+		</associatedParty>
+		
+		<pubDate>2016-03-23</pubDate>
+
+		<language>eng</language>
+	
+		<abstract>
+			<para>Small ciliated worms known as acoels and nemertodermatids comprise the Acoelomorpha. Their position among other bilaterian animals is not clear, but a recent genomic study (Phillipe et al., 2011) placed them within the Deuterostomia, in a phylum Xenacoelomorpha that includes also the enigmatic sack-like animal Xenoturbella). Xenacoelomorpha is placed as sister group to the Ambulacraria (Echinodermata + Hemichordata). Earlier proposals that Acoelomorpha was the most primitive bilaterian group are likely to be a result of a statistical error known as long-branch attraction.   Relationships of species within the Acoelomorpha are no less certain. Their relatively simple morphology offers few characters to determine relationships and still too few of them have been examined for significant molecular-sequence data. Especially the smaller and probably more primitive species living in sediments are little studied; more is known of the more derived and larger acoels such as the convolutids. The current framework from molecular-sequence data, reflected in the hierarchy shown in this database, comes from Jondelius et al. (2011)</para>
+		</abstract>
+		
+		<distribution scope="document">
+			<online>
+				<url function="information">http://www.marinespecies.org</url>
+			</online>
+		</distribution>
+		
+		<contact>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<deliveryPoint>Harborne Building, The University of Reading</deliveryPoint>
+				<city>Reading RG6 6AS</city>
+				<country>UK</country>
+			</address>
+			<phone>+44(0)1183786466</phone>
+			<electronicMailAddress>support@sp2000.org</electronicMailAddress>
+		</contact>		
+	</dataset>
+	
+	<additionalMetadata>
+		<metadata>
+			<gbif>
+				<dateStamp>2016-03-24T02:28:06+00:00</dateStamp>
+				<citation identifier="http://www.mapress.com/phytotaxa/content/2011/f/pt00019p054.pdf" >Species 2000 &amp; ITIS Catalogue of Life: 23rd March 2016, WoRMS Acoelomorpha</citation>
+				<resourceLogoUrl>http://www.catalogueoflife.org/annual-checklist/2015/images/databases/WoRMS_Acoelomorpha.png</resourceLogoUrl>
+			</gbif>
+			
+			<sourceDatabase>
+				<abbreviatedName>WoRMS Acoelomorpha</abbreviatedName>
+				<authorsAndEditors>Tyler S., Artois T. </authorsAndEditors>
+				<version>2016-03-01</version>
+			</sourceDatabase>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

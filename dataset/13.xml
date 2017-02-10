@@ -1,0 +1,86 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+	xmlns:md="eml://ecoinformatics.org/methods-2.1.1" 
+	xmlns:proj="eml://ecoinformatics.org/project-2.1.1"
+	xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" 
+	xmlns:res="eml://ecoinformatics.org/resource-2.1.1"
+	xmlns:dc="http://purl.org/dc/terms/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/dev/eml.xsd"
+	packageId="13:2016-03-23"
+	system="catalogueoflife.org" 
+	scope="system" 
+	xml:lang="eng">
+	<dataset>
+		<alternateIdentifier system="catalogueoflife.org">13</alternateIdentifier>
+
+		<title xml:lang="eng">Hexacorals: Hexacorallians of the World in the Catalogue of Life</title>
+		
+		<creator>
+			<organizationName>Species 2000 &amp; ITIS Catalogue of Life</organizationName>
+			<address>
+				<city>Reading</city>
+				<postalCode>RG6 6AS</postalCode>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.catalogueoflife.org</onlineUrl>
+		</creator>
+
+		<metadataProvider>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<city>Reading</city>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.sp2000.org/</onlineUrl>
+		</metadataProvider>
+
+		<associatedParty>
+			<individualName>
+				<givenName></givenName>
+				<surName>Fautin D.G.</surName>					
+			</individualName>
+			<role>editor</role>
+		</associatedParty>
+		
+		<pubDate>2016-03-23</pubDate>
+
+		<language>eng</language>
+	
+		<abstract>
+			<para>This database contributes data on members of the order Actiniaria (sea anemones) to the Catalogue of Life. The original Hexacorals database also provides information on the taxa, literature, type specimens, distribution maps, and images of extant hexacorallians. As well as the order Actiniaria, the Hexacorals database also includes data on members of the orders Corallimorpharia, Ptychodactiaria, and Zoanthidea (sea anemones in the loose sense), Ceriantharia (tube anemones), and Scleractinia (hard or stony corals).</para>
+		</abstract>
+		
+		<distribution scope="document">
+			<online>
+				<url function="information">http://hercules.kgs.ku.edu/hexacoral/anemone2/index.cfm</url>
+			</online>
+		</distribution>
+		
+		<contact>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<deliveryPoint>Harborne Building, The University of Reading</deliveryPoint>
+				<city>Reading RG6 6AS</city>
+				<country>UK</country>
+			</address>
+			<phone>+44(0)1183786466</phone>
+			<electronicMailAddress>support@sp2000.org</electronicMailAddress>
+		</contact>		
+	</dataset>
+	
+	<additionalMetadata>
+		<metadata>
+			<gbif>
+				<dateStamp>2016-03-23T19:24:52+00:00</dateStamp>
+				<citation identifier="http://www.mapress.com/phytotaxa/content/2011/f/pt00019p054.pdf" >Species 2000 &amp; ITIS Catalogue of Life: 23rd March 2016, Hexacorals</citation>
+				<resourceLogoUrl>http://www.catalogueoflife.org/annual-checklist/2015/images/databases/Hexacorals.png</resourceLogoUrl>
+			</gbif>
+			
+			<sourceDatabase>
+				<abbreviatedName>Hexacorals</abbreviatedName>
+				<authorsAndEditors>Fautin D.G.</authorsAndEditors>
+				<version>Jul 2001</version>
+			</sourceDatabase>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

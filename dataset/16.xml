@@ -1,0 +1,86 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+	xmlns:md="eml://ecoinformatics.org/methods-2.1.1" 
+	xmlns:proj="eml://ecoinformatics.org/project-2.1.1"
+	xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" 
+	xmlns:res="eml://ecoinformatics.org/resource-2.1.1"
+	xmlns:dc="http://purl.org/dc/terms/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/dev/eml.xsd"
+	packageId="16:2016-03-23"
+	system="catalogueoflife.org" 
+	scope="system" 
+	xml:lang="eng">
+	<dataset>
+		<alternateIdentifier system="catalogueoflife.org">16</alternateIdentifier>
+
+		<title xml:lang="eng">IOPI Global Plant Checklist in the Catalogue of Life</title>
+		
+		<creator>
+			<organizationName>Species 2000 &amp; ITIS Catalogue of Life</organizationName>
+			<address>
+				<city>Reading</city>
+				<postalCode>RG6 6AS</postalCode>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.catalogueoflife.org</onlineUrl>
+		</creator>
+
+		<metadataProvider>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<city>Reading</city>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.sp2000.org/</onlineUrl>
+		</metadataProvider>
+
+		<associatedParty>
+			<individualName>
+				<givenName></givenName>
+				<surName>Wilson K.L. &amp; Berendsohn W.G. (eds)</surName>					
+			</individualName>
+			<role>editor</role>
+		</associatedParty>
+		
+		<pubDate>2016-03-23</pubDate>
+
+		<language>eng</language>
+	
+		<abstract>
+			<para>The International Organization for Plant Information (IOPI) aims to produce a database of all vascular plant species and other products such as a World Flora. The checklist currently holds over 200,000 names and implements the innovative potential taxon concept. Data for 5 flowering plant families are included in this Annual Checklist.  Casuarinaceace data supplied by K.L. Wilson and L.A.S. Johnson† (Royal Botanic Gardens Sydney), 1996. Chrysobalanaceae data supplied by G.T. Prance &amp;amp; C.A. Sothers (Royal Botanic Gardens Kew), 2003. Eucalypt data supplied by K.D. Hill &amp;amp; L.C. Stanberg (Royal Botanic Gardens Sydney), 2004. Irvingiaceae data supplied by D.J. Harris (Royal Botanic Garden, Edinburgh), 1999. Juncaceae data compiled by J. Kirschner (Institute of Botany, Pruhonice), 2002.</para>
+		</abstract>
+		
+		<distribution scope="document">
+			<online>
+				<url function="information">http://www.iopi.org</url>
+			</online>
+		</distribution>
+		
+		<contact>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<deliveryPoint>Harborne Building, The University of Reading</deliveryPoint>
+				<city>Reading RG6 6AS</city>
+				<country>UK</country>
+			</address>
+			<phone>+44(0)1183786466</phone>
+			<electronicMailAddress>support@sp2000.org</electronicMailAddress>
+		</contact>		
+	</dataset>
+	
+	<additionalMetadata>
+		<metadata>
+			<gbif>
+				<dateStamp>2016-03-23T19:25:59+00:00</dateStamp>
+				<citation identifier="http://www.mapress.com/phytotaxa/content/2011/f/pt00019p054.pdf" >Species 2000 &amp; ITIS Catalogue of Life: 23rd March 2016, IOPI-GPC</citation>
+				<resourceLogoUrl>http://www.catalogueoflife.org/annual-checklist/2015/images/databases/IOPI-GPC.png</resourceLogoUrl>
+			</gbif>
+			
+			<sourceDatabase>
+				<abbreviatedName>IOPI-GPC</abbreviatedName>
+				<authorsAndEditors>Wilson K.L. &amp; Berendsohn W.G. (eds)</authorsAndEditors>
+				<version>10.0, Aug 2007</version>
+			</sourceDatabase>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

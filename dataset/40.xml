@@ -1,0 +1,86 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+	xmlns:md="eml://ecoinformatics.org/methods-2.1.1" 
+	xmlns:proj="eml://ecoinformatics.org/project-2.1.1"
+	xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" 
+	xmlns:res="eml://ecoinformatics.org/resource-2.1.1"
+	xmlns:dc="http://purl.org/dc/terms/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/dev/eml.xsd"
+	packageId="40:2016-03-23"
+	system="catalogueoflife.org" 
+	scope="system" 
+	xml:lang="eng">
+	<dataset>
+		<alternateIdentifier system="catalogueoflife.org">40</alternateIdentifier>
+
+		<title xml:lang="eng">AnnonBase: Annonaceae GSD in the Catalogue of Life</title>
+		
+		<creator>
+			<organizationName>Species 2000 &amp; ITIS Catalogue of Life</organizationName>
+			<address>
+				<city>Reading</city>
+				<postalCode>RG6 6AS</postalCode>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.catalogueoflife.org</onlineUrl>
+		</creator>
+
+		<metadataProvider>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<city>Reading</city>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.sp2000.org/</onlineUrl>
+		</metadataProvider>
+
+		<associatedParty>
+			<individualName>
+				<givenName></givenName>
+				<surName>Rainer H. &amp; Chatrou L.W. (eds)</surName>					
+			</individualName>
+			<role>editor</role>
+		</associatedParty>
+		
+		<pubDate>2016-03-23</pubDate>
+
+		<language>eng</language>
+	
+		<abstract>
+			<para>AnnonBase includes all published names of Annonaceae of any rank worldwide. The idea of this development is to serve as a concise taxonomic backbone for basic as well as applied scientific studies. The AnnonBase source database also includes references to type material and their location of deposit. This releases includes information on vernacular names, distributional data and links to relevant information sources. Database development and maintenance has been done at the Austrian Academy of Sciences, the Natural History Museum of Vienna, and the University of Vienna and was partly funded by the European Commission.</para>
+		</abstract>
+		
+		<distribution scope="document">
+			<online>
+				<url function="information">http://herbarium.botanik.univie.ac.at/</url>
+			</online>
+		</distribution>
+		
+		<contact>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<deliveryPoint>Harborne Building, The University of Reading</deliveryPoint>
+				<city>Reading RG6 6AS</city>
+				<country>UK</country>
+			</address>
+			<phone>+44(0)1183786466</phone>
+			<electronicMailAddress>support@sp2000.org</electronicMailAddress>
+		</contact>		
+	</dataset>
+	
+	<additionalMetadata>
+		<metadata>
+			<gbif>
+				<dateStamp>2016-03-23T21:42:58+00:00</dateStamp>
+				<citation identifier="http://www.mapress.com/phytotaxa/content/2011/f/pt00019p054.pdf" >Species 2000 &amp; ITIS Catalogue of Life: 23rd March 2016, AnnonBase</citation>
+				<resourceLogoUrl>http://www.catalogueoflife.org/annual-checklist/2015/images/databases/AnnonBase.png</resourceLogoUrl>
+			</gbif>
+			
+			<sourceDatabase>
+				<abbreviatedName>AnnonBase</abbreviatedName>
+				<authorsAndEditors>Rainer H. &amp; Chatrou L.W. (eds)</authorsAndEditors>
+				<version>Jan 2014</version>
+			</sourceDatabase>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

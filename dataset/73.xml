@@ -1,0 +1,86 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+	xmlns:md="eml://ecoinformatics.org/methods-2.1.1" 
+	xmlns:proj="eml://ecoinformatics.org/project-2.1.1"
+	xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" 
+	xmlns:res="eml://ecoinformatics.org/resource-2.1.1"
+	xmlns:dc="http://purl.org/dc/terms/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/dev/eml.xsd"
+	packageId="73:2016-03-23"
+	system="catalogueoflife.org" 
+	scope="system" 
+	xml:lang="eng">
+	<dataset>
+		<alternateIdentifier system="catalogueoflife.org">73</alternateIdentifier>
+
+		<title xml:lang="eng">Brassicaceae species checklist and database in the Catalogue of Life</title>
+		
+		<creator>
+			<organizationName>Species 2000 &amp; ITIS Catalogue of Life</organizationName>
+			<address>
+				<city>Reading</city>
+				<postalCode>RG6 6AS</postalCode>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.catalogueoflife.org</onlineUrl>
+		</creator>
+
+		<metadataProvider>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<city>Reading</city>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.sp2000.org/</onlineUrl>
+		</metadataProvider>
+
+		<associatedParty>
+			<individualName>
+				<givenName></givenName>
+				<surName>Warwick S.I., Francis A. &amp; Al-Shehbaz I.A.</surName>					
+			</individualName>
+			<role>editor</role>
+		</associatedParty>
+		
+		<pubDate>2016-03-23</pubDate>
+
+		<language>eng</language>
+	
+		<abstract>
+			<para>A species checklist has been prepared for the Brassicaceae (Cruciferae) family, providing the first updated list in over 70 years. The current taxonomic database contains approximately 14,000 plant names, compiled from the taxonomic literature starting with Linnaeus’s Species plantarum in 1753 to the present. Taxon status and synonymy, taxon name, scientific authority, literature source and source verification, and the basionym are provided for each record.</para>
+		</abstract>
+		
+		<distribution scope="document">
+			<online>
+				<url function="information">http://www.cbif.gc.ca/pls/spec/brassicaceae</url>
+			</online>
+		</distribution>
+		
+		<contact>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<deliveryPoint>Harborne Building, The University of Reading</deliveryPoint>
+				<city>Reading RG6 6AS</city>
+				<country>UK</country>
+			</address>
+			<phone>+44(0)1183786466</phone>
+			<electronicMailAddress>support@sp2000.org</electronicMailAddress>
+		</contact>		
+	</dataset>
+	
+	<additionalMetadata>
+		<metadata>
+			<gbif>
+				<dateStamp>2016-03-23T19:52:54+00:00</dateStamp>
+				<citation identifier="http://www.mapress.com/phytotaxa/content/2011/f/pt00019p054.pdf" >Species 2000 &amp; ITIS Catalogue of Life: 23rd March 2016, Brassicaceae</citation>
+				<resourceLogoUrl>http://www.catalogueoflife.org/annual-checklist/2015/images/databases/Brassicaceae.png</resourceLogoUrl>
+			</gbif>
+			
+			<sourceDatabase>
+				<abbreviatedName>Brassicaceae</abbreviatedName>
+				<authorsAndEditors>Warwick S.I., Francis A. &amp; Al-Shehbaz I.A.</authorsAndEditors>
+				<version>2, Oct 2009</version>
+			</sourceDatabase>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>

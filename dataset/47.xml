@@ -1,0 +1,86 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+	xmlns:md="eml://ecoinformatics.org/methods-2.1.1" 
+	xmlns:proj="eml://ecoinformatics.org/project-2.1.1"
+	xmlns:d="eml://ecoinformatics.org/dataset-2.1.1" 
+	xmlns:res="eml://ecoinformatics.org/resource-2.1.1"
+	xmlns:dc="http://purl.org/dc/terms/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/dev/eml.xsd"
+	packageId="47:2016-03-23"
+	system="catalogueoflife.org" 
+	scope="system" 
+	xml:lang="eng">
+	<dataset>
+		<alternateIdentifier system="catalogueoflife.org">47</alternateIdentifier>
+
+		<title xml:lang="eng">FADA Rotifera: Annotated checklist of the rotifers (Phylum Rotifera) in the Catalogue of Life</title>
+		
+		<creator>
+			<organizationName>Species 2000 &amp; ITIS Catalogue of Life</organizationName>
+			<address>
+				<city>Reading</city>
+				<postalCode>RG6 6AS</postalCode>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.catalogueoflife.org</onlineUrl>
+		</creator>
+
+		<metadataProvider>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<city>Reading</city>
+				<country>UK</country>
+			</address>
+			<onlineUrl>http://www.sp2000.org/</onlineUrl>
+		</metadataProvider>
+
+		<associatedParty>
+			<individualName>
+				<givenName></givenName>
+				<surName>Segers H.</surName>					
+			</individualName>
+			<role>editor</role>
+		</associatedParty>
+		
+		<pubDate>2016-03-23</pubDate>
+
+		<language>eng</language>
+	
+		<abstract>
+			<para>A taxonomic database of accepted and the most commonly used synonyms in the phylum Rotifera with information on biogeography. The database was prepared under the Freshwater Animal Diversity Assessment project. This version supplied for the Catalogue of Life by FADA is based on a print version, published in the journal Zootaxa (see&amp;lt;ahref=&amp;quot;http://www.mapress.com/zootaxa/list/2007/2007-08.html#Zootaxa%201564&amp;quot;target=&amp;quot;_blank&amp;quot;&amp;gt;http://www.mapress.com/zootaxa/list/2007/2007-08.html#Zootaxa%201564&amp;lt;/a&amp;gt;or&amp;lt;ahref=&amp;quot;http://www.mapress.com/zootaxa/2007f/zt01564p104.pdf&amp;quot;target=&amp;quot;_blank&amp;quot;&amp;gt;http://www.mapress.com/zootaxa/2007f/zt01564p104.pdf&amp;lt;/a&amp;gt;. Users are urged to use and cite this printed version.</para>
+		</abstract>
+		
+		<distribution scope="document">
+			<online>
+				<url function="information">http://fada.biodiversity.be/group/show/4</url>
+			</online>
+		</distribution>
+		
+		<contact>
+			<organizationName>Species 2000 Secretariat</organizationName>
+			<address>
+				<deliveryPoint>Harborne Building, The University of Reading</deliveryPoint>
+				<city>Reading RG6 6AS</city>
+				<country>UK</country>
+			</address>
+			<phone>+44(0)1183786466</phone>
+			<electronicMailAddress>support@sp2000.org</electronicMailAddress>
+		</contact>		
+	</dataset>
+	
+	<additionalMetadata>
+		<metadata>
+			<gbif>
+				<dateStamp>2016-03-23T21:11:47+00:00</dateStamp>
+				<citation identifier="http://www.mapress.com/phytotaxa/content/2011/f/pt00019p054.pdf" >Species 2000 &amp; ITIS Catalogue of Life: 23rd March 2016, FADA Rotifera</citation>
+				<resourceLogoUrl>http://www.catalogueoflife.org/annual-checklist/2015/images/databases/FADA_Rotifera.png</resourceLogoUrl>
+			</gbif>
+			
+			<sourceDatabase>
+				<abbreviatedName>FADA Rotifera</abbreviatedName>
+				<authorsAndEditors>Segers H.</authorsAndEditors>
+				<version>May 2012</version>
+			</sourceDatabase>
+		</metadata>
+	</additionalMetadata>
+</eml:eml>
